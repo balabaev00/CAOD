@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  function.cpp
+c:\visual studio - задания\caod - 2\caod - 2\function.cpp(8): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\visual studio - задания\caod - 2\caod - 2\function.cpp(9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\visual studio - задания\caod - 2\caod - 2\function.cpp(10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  main.cpp
+c:\visual studio - задания\caod - 2\caod - 2\main.cpp(12): warning C4101: bC: неиспользованная локальная переменная
+c:\visual studio - задания\caod - 2\caod - 2\main.cpp(12): warning C4101: cC: неиспользованная локальная переменная
+c:\visual studio - задания\caod - 2\caod - 2\main.cpp(12): warning C4101: aC: неиспользованная локальная переменная
+  Создание кода...
+  CAOD - 2.vcxproj -> C:\Visual Studio - Задания\CAOD - 2\Debug\CAOD - 2.exe
