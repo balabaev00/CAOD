@@ -2,6 +2,7 @@
 #include "pch.h"
 #include "function.h"
 #include <iostream>
+#include <ctime>
 
 
 using namespace std;
@@ -24,7 +25,15 @@ int main()
 	cin >> xEnd;
 	cout << "Введите шаг : ";
 	cin >> dX;
+	unsigned int start_time = clock(); // начальное время
 	function(a, b, c, xBegin, xEnd, dX);
+	unsigned int end_time = clock(); // конечное время
+	cout << "Время выполнения функции 1 = " << (double)(end_time - start_time) / CLOCKS_PER_SEC << endl;
+	start_time = clock(); // начальное время
+	function_f(a, b, c, xBegin, xEnd, dX);
+	end_time = clock(); // конечное время
+	cout << "Время выполнения функции 2 = " << (double) (end_time - start_time) / CLOCKS_PER_SEC << endl;
+	system("pause");
 	return 0;
 }
 

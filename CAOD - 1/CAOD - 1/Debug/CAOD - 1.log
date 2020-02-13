@@ -1,5 +1,8 @@
 ﻿  function.cpp
-c:\visual studio - задания\caod - 1\caod - 1\function.cpp(8): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-c:\visual studio - задания\caod - 1\caod - 1\function.cpp(9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-c:\visual studio - задания\caod - 1\caod - 1\function.cpp(10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  CAOD - 1.vcxproj -> C:\Visual Studio - Задания\CAOD - 1\Debug\CAOD - 1.exe
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(54): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(55): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\balabaev00\caod\caod - 1\caod - 1\function.cpp(56): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  CAOD - 1.vcxproj -> D:\balabaev00\CAOD\CAOD - 1\Debug\CAOD - 1.exe
