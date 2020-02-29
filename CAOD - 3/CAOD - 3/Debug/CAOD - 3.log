@@ -1,2 +1,4 @@
-﻿  main.cpp
-  CAOD - 3.vcxproj -> C:\CAOD - 3\Debug\CAOD - 3.exe
+﻿  function.cpp
+c:\caod\caod - 3\caod - 3\function.cpp(64): warning C4018: <: несоответствие типов со знаком и без знака
+c:\caod\caod - 3\caod - 3\function.cpp(102): warning C4018: <: несоответствие типов со знаком и без знака
+  CAOD - 3.vcxproj -> C:\CAOD\CAOD - 3\Debug\CAOD - 3.exe

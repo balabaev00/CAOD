@@ -105,7 +105,6 @@ int maxCount(int ** massive, int n, int m)
 							}
 							if (countTemp == temp.size()) {
 								max = array[i][j];
-								cout << "Максимальный элемент на данный момент = " << max << endl;
 							}
 						}
 						countTemp = 0;
