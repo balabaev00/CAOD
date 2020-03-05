@@ -6,3 +6,4 @@ using namespace std;
 double mul(double *massive, int i);
 void toString(double *massive, int size);
 void randomMassive(double *massive, int size);
+double sum(double n, double m);

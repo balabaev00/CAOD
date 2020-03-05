@@ -29,5 +29,8 @@ int main()
 	}
 	out << endl;
 	out << "Произведение элементов массива = " << mul(massive, size) << endl;
+	double n = 5;
+	double m = 7;
+	cout << "Сумма при n = " << n << " и m = " << m << " = " << sum(n, m) << endl;
 	delete[] massive;
 }
