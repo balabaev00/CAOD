@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\balabaev00\caod\caod - 5\caod - 5\main.cpp(26): warning C4156: удаление массива без использования формы оператора "delete", предусмотренной для массива; подставлена предусмотренная форма оператора
+d:\balabaev00\caod\caod - 5\caod - 5\main.cpp(26): warning C4154: удаление массива; выполнено преобразование к указателю
+  CAOD - 5.vcxproj -> D:\balabaev00\CAOD\CAOD - 5\Debug\CAOD - 5.exe
