@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "student.h"
 #include <string>
+#include <fstream>
 using namespace std;
 
 void readStudent(Student student[], short n)
@@ -48,6 +49,21 @@ void writeStudent(Student student[], short n)
 	cout << endl;
 }
 
+void writeStudentFile(Student student[], short n, ofstream &out)
+{
+	for (int i = 0; i < n; i++) {
+		out << i << " Студент" << endl;
+		out << "Фамилия ИО : " << student[i].secondName << endl;
+		out << "Группа : " << student[i].number << endl;
+		out << "Оценки : ";
+		for (int j = 0; j < 5; j++) {
+			out << student[i].rating[j] << " ";
+		}
+		out << endl;
+	}
+	out << endl;
+}
+
 void writeGoodStudent(Student student[], short n)
 {
 	double *temp = new double[n];
@@ -70,6 +86,32 @@ void writeGoodStudent(Student student[], short n)
 	}
 	if (count == 0) {
 		cout << "Студентов с баллов > 4 нет!" << endl;
+	}
+	delete[] temp;
+}
+
+void writeGoodStudentFile(Student student[], short n, ofstream &out)
+{
+	double *temp = new double[n];
+	double sr;
+	int count = 0;
+	for (int i = 0; i < n; i++) {
+		sr = 0;
+		for (int j = 0; j < 5; j++) {
+			sr += student[i].rating[j];
+		}
+		temp[i] = sr / 5;
+		if (temp[i] > 4) {
+			out << endl;
+			out << "Фамилия ИО : " << student[i].secondName << endl;
+			out << "Группа : " << student[i].number << endl;
+			out << "Средний балл студента = " << temp[i] << endl;
+			out << endl;
+			count++;
+		}
+	}
+	if (count == 0) {
+		out << "Студентов с баллов > 4 нет!" << endl;
 	}
 	delete[] temp;
 }

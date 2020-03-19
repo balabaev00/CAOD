@@ -15,3 +15,5 @@ void readStudent(Student student[], short n);
 void sortStudent(Student student[], short n);
 void writeStudent(Student student[], short n);
 void writeGoodStudent(Student student[], short n);
+void writeGoodStudentFile(Student student[], short n, ofstream &out);
+void writeStudentFile(Student student[], short n, ofstream &out);
