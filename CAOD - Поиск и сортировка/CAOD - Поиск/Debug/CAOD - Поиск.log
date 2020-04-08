@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  main.cpp
+  search.cpp
+  sort.cpp
+  Создание кода...
+c:\visual studio - задания\caod\caod - поиск и сортировка\caod - поиск\search.cpp(57): warning C4715: distributedSearch: значение возвращается не при всех путях выполнения
+  CAOD - Поиск.vcxproj -> C:\Visual Studio - Задания\CAOD\CAOD - Поиск и сортировка\Debug\CAOD - Поиск.exe
