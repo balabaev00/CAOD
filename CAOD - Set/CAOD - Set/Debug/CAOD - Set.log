@@ -1,0 +1,20 @@
+﻿  main.cpp
+c:\caod - set\caod - set\set.h(113): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\caod - set\caod - set\set.h(112): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\caod - set\caod - set\main.cpp(36): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Set<int>::difference(Set<int>)"
+  c:\caod - set\caod - set\main.cpp(14): note: выполняется компиляция ссылки на экземпляр шаблон класс "Set<int>"
+c:\caod - set\caod - set\set.h(97): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\caod - set\caod - set\set.h(90): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\caod - set\caod - set\main.cpp(32): note: выполняется компиляция ссылки на экземпляр шаблон функции "Set<int> Set<int>::unification(Set<int>)"
+c:\caod - set\caod - set\set.h(101): warning C4018: <: несоответствие типов со знаком и без знака
+c:\caod - set\caod - set\set.h(102): warning C4018: <: несоответствие типов со знаком и без знака
+c:\caod - set\caod - set\set.h(30): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\caod - set\caod - set\set.h(27): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\caod - set\caod - set\set.h(100): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Set<int>::sort(std::vector<T,std::allocator<_Ty>> &)"
+          with
+          [
+              T=int,
+              _Ty=int
+          ]
+c:\caod - set\caod - set\set.h(31): warning C4018: <: несоответствие типов со знаком и без знака
+  CAOD - Set.vcxproj -> C:\CAOD - Set\Debug\CAOD - Set.exe
